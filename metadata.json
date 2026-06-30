@@ -1,0 +1,6 @@
+{
+  "name": "Aura Athletics",
+  "description": "Elite athletic performance and recovery dashboard for Aura Athletics, featuring high-fidelity dark-mode charts, real-time biometric simulation, and a custom wellness planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

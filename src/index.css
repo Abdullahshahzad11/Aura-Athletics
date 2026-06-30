@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Core brand colors - Elegant Dark Theme mapping */
+  --color-gold: #6366f1; /* Indigo-500 primary */
+  --color-gold-bright: #818cf8; /* Indigo-400 bright */
+  --color-gold-dim: #4f46e5; /* Indigo-600 dim */
+  --color-midnight: #0a0a0c; /* Deep black foundation */
+  --color-obsidian: #111114; /* Elevated container surface */
+  --color-slate-metal: #1e293b; /* Sleek slate border (#1e293b = border-slate-800) */
+  --color-surface-dim: #0a0a0c;
+  --color-surface-container-low: #0e0e11;
+  --color-surface-container: #111114;
+  --color-surface-container-high: #1b1b22;
+  --color-surface-container-highest: #26262f;
+  --color-on-surface: #f1f5f9;
+  --color-on-surface-variant: #94a3b8;
+}
+
+/* Custom styles for glowing metallic components (Indigo) */
+.gold-glow {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.15);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.3);
+  border-color: #6366f1;
+}
+
+.text-stroke-gold {
+  -webkit-text-stroke: 1px rgba(99, 102, 241, 0.3);
+}
+
+/* Smooth scrollbar for custom dashboard scrollable areas */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6366f1;
+}
